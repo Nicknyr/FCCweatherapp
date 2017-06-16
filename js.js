@@ -5,8 +5,8 @@ var cel = false;
 var wd;
 
 function displayTemp(fTemp, c){
-  if(c) return Math.round((fTemp - 32) * (5/9)) + " C";
-  return fTemp + " F";
+  if(c) return Math.round((fTemp - 32) * (5/9)) + " &#8451";
+  return fTemp + " &#8457";
 }
 
 function render(wd, cel){
@@ -18,7 +18,7 @@ function render(wd, cel){
   var icon = wd.weather[0].icon;
 
   $('#currentLocation').html(currentLocation);
-  $('#currentTemp').html(currentTemp + '&#8457');
+  $('#currentTemp').html(currentTemp);
   $('#currentWeather').html(currentWeather);
   $('#high-low').html(high + '/' + low);
 
