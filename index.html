@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="weather-icons.css">
 <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js.js"></script>
@@ -13,22 +14,43 @@
 <body>
   <main>
     <h1>Local Weather App</h1>
+
+    <a href="#" id="toggle">Toggle celsius/fahrenheight</a>
+
     <section id="location">
       <h2>Location</h2>
       <h3 id="currentLocation">Location</h3>
-
     </section>
+
     <section id="temperature">
       <h2>Temperature</h2>
       <h3 id="currentTemp">Temperature</h3>
-
     </section>
+
+    <section id ="highlow">
+      <h2>High/Low</h2>
+      <h3 id="high-low"></h3>
+    </section>
+
     <section id="forecast">
       <h2>Forecast</h2>
       <h3 id="currentWeather">Forecast</3>
-
     </section>
+
   </main>
+
+<!--
+<section id="icons">
+  <i class="wi wi-day-sunny"></i>
+  <i class="wi wi-day-cloudy"></i>
+  <i class="wi wi-day-rain"></i>
+  <i class="wi wi-day-showers"></i>
+  <i class="wi wi-day-windy"></i>
+  <i class="wi wi-hot"></i>
+  <i class="wi wi-day-thunderstorm"></i>
+</section>
+--->
+
 </body>
 
 </html>

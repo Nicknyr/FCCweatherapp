@@ -1,5 +1,5 @@
 body {
-  background-color: floralwhite;
+  background-color: white;
 }
 
 h1 {
@@ -35,7 +35,7 @@ main {
   width: 20%;
   background-color: red;
   display: inline-block;
-  margin-left: 19.5%;
+  margin-left: 9.5%;
 
 
 }
@@ -47,9 +47,16 @@ main {
 
 }
 
+#highlow {
+  width: 20%;
+  background-color: green;
+  display: inline-block;
+
+}
+
 #forecast {
   width: 20%;
   background-color: blue;
   display: inline-block;
-  margin-right: 19.5%;
+  margin-right: 9.5%;
 }
